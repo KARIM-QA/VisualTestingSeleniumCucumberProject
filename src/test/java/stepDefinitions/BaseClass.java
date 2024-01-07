@@ -35,7 +35,7 @@ public class BaseClass {
     }
     
     protected void setBatch() {
-    	batch = new BatchInfo("Visual Testing with selenium");
+    	batch = new BatchInfo("Visual Testing with Selenium and Cucumber");
     	runner =new ClassicRunner();
     	eyes =new Eyes(runner);
     	eyes.setApiKey("43ga3exQD9VbnIpbIHxCqPTcRA36Znl3zKZuJjEfPYU110");

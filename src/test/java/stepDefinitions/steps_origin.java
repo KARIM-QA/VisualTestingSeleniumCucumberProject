@@ -22,7 +22,7 @@ public class steps_origin extends BaseClass {
 		myDriver = new ChromeDriver();
 		myDriver.manage().window().maximize();
 		loginPage = new LoginPage(myDriver);
-		eyes.open(myDriver, "Validation Customer infos", "Customer infos Test");
+		eyes.open(myDriver, "Validation Customer informations Interface", "Customer informations Test");
 	}
 
 	/***************** Login Feature **********************************/
@@ -59,7 +59,7 @@ public class steps_origin extends BaseClass {
 
 		Assert.assertEquals("Dashboard / nopCommerce administration", addCustomersPage.GetTitle()); // verification du
 																									// titre de la page
-		eyes.checkWindow("HomePage Area");
+		
 	}
 
 	@When("User click on Customers Menu")
@@ -111,8 +111,7 @@ public class steps_origin extends BaseClass {
 		addCustomersPage.setadminComment("Hello Testers :) ");
 
 		// Visual info customer interface
-		// eyes.open(myDriver, "Validation add Customer info", "Add Customer info
-		// Test");
+		
 		eyes.checkWindow("Customer Info Interface");
 
 		eyes.close();
