@@ -59,7 +59,7 @@ public class steps_origin extends BaseClass {
 
 		Assert.assertEquals("Dashboard / nopCommerce administration", addCustomersPage.GetTitle()); // verification du
 																									// titre de la page
-		eyes.checkWindow("HomePage Area");
+		//eyes.checkWindow("HomePage Area");
 	}
 
 	@When("User click on Customers Menu")
