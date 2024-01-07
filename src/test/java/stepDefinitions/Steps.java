@@ -12,7 +12,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import pageObjects.AddCustomersPage;
 import pageObjects.LoginPage;
 
-public class steps_origin extends BaseClass {
+public class Steps extends BaseClass {
 
 	@Given("Open Browser")
 	public void open_browser() {
