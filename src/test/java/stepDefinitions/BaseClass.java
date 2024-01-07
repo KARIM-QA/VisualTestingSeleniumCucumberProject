@@ -38,7 +38,7 @@ public class BaseClass {
     	batch = new BatchInfo("Visual Testing with selenium");
     	runner =new ClassicRunner();
     	eyes =new Eyes(runner);
-    	eyes.setApiKey(System.getenv("APPLITOOLS_API_KEY"));
+    	eyes.setApiKey("43ga3exQD9VbnIpbIHxCqPTcRA36Znl3zKZuJjEfPYU110");
     	eyes.setBatch(batch);
     }
 
